@@ -1,0 +1,25 @@
+  .input input{
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 7px 17px;
+}
+.input {
+    min-width: 500px;
+}
+.input button{
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+     
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+.input button:hover{
+    transform: scale(1.1);  
+     
+}
